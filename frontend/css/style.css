@@ -1,0 +1,254 @@
+
+    .blinking-border {
+       border: 1px solid #cc0000 ;
+       outline: 1px solid #cc0000 ;
+       animation: blink ease-in-out 1.5s infinite ;
+   }
+   @keyframes blink {
+           0% {
+               border-color: #cc0000 ;
+               outline-color: #cc0000 ;
+           }
+           50% {
+               border-color: transparent ;
+               outline-color: transparent ;
+           }
+           100% {
+               border-color: #cc0000 !important;
+               outline-color: #cc0000 !important;
+       }
+   }
+
+   .enginediv1 {
+     width: 100%;
+
+     padding-top: 25px;
+     background: #FFFFFF;
+     border-radius: 15px;
+     padding-left: 12px;
+     column-gap: 2rem;
+     row-gap: 1rem;
+     height: auto;
+
+     min-height: calc(100vh - 5rem);
+   }
+
+   .enginediv2 {
+     display: flex;
+
+
+     margin-bottom: 18px;
+
+     padding-left: 12px;
+     column-gap: 2rem;
+     row-gap: 1rem;
+
+   }
+
+   .enginelabel {
+     font-family: 'Roboto';
+     font-weight: 500;
+     font-size: 12px;
+     width: min(100% - 1rem, 250px);
+     color: #000000;
+   }
+
+   .el {
+     padding-left: 12px;
+   }
+
+   .titleinputinput {
+     width: 100%;
+     height: 33px;
+     background: #F3F5F9;
+     border: 1px solid #E0E0E0;
+     border-radius: 8px;
+     margin-top: 8px;
+     padding-left: 12px;
+   }
+
+   .assignbtn {
+
+     width: 137px;
+     height: 36px;
+     background: linear-gradient(93.44deg, #084EBC -10.49%, #084EBC 40.55%, #3C8FDD 99.47%);
+     border-radius: 8px;
+     font-family: "Roboto";
+     border-radius: 10px;
+     font-size: 12px;
+     margin-top: 27px;
+     margin-left: 41px;
+     font-weight: 500;
+     border: none;
+     color: white;
+   }
+
+
+   .stab {
+     width: 97%;
+     margin: auto;
+   }
+
+
+   .engine-table-wrapper {
+
+     width: 100%;
+     background-color: #fff;
+     min-width: 800px;
+
+     filter: drop-shadow(0px 3px 9px rgba(167, 167, 167, 0.35));
+     border-radius: 10px;
+     overflow-y: auto;
+     overflow: overlay;
+
+
+   }
+
+
+   .header tr {
+
+     background-color: #047BD5;
+     color: #E4F3FF;
+     align-items: center;
+     text-align: center;
+     font-family: 'Roboto';
+     font-weight: 600;
+     font-size: 11px;
+     letter-spacing: 1px;
+     height: 45px;
+     min-width: 500px;
+
+   }
+
+   .table thead>tr>th {
+     color: #fff;
+   }
+
+
+
+   .table-wrapper {
+
+     width: 100%;
+   
+     margin-left: -7px;
+     overflow-y: auto;
+   }
+
+   .table-wrapper thead th {
+     position: sticky;
+     top: 0;
+     background: #047BD5;
+   }
+
+   .assign_table_body {
+     overflow-y: auto;
+     max-height: calc(100vh - 17em);
+     width: calc(100% - 16px);
+     /* Adjust for scrollbar width */
+   }
+
+   .engine-table-wrapper {
+
+     width: 100%;
+   }
+
+
+
+   @media (max-width: 768px) {
+     .header tr {
+       font-size: 10px;
+     }
+
+     .table td,
+     .table th {
+       padding: 8px;
+       font-size: 10px;
+     }
+
+   }
+   .fas.fa-sort {
+   margin-top: 3px; 
+ }
+ .hidden{
+   display: none;
+ }
+
+          
+ .editbtn {
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+    /* margin: 10px; */
+    padding: 6px 38px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+  }
+
+  .editbtn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
+
+           
+  .delbtn {
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+    /* margin: 10px; */
+    padding: 6px 34px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+  }
+
+  .delbtn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
+
+  .modal-content {
+    border: none;
+  }
+
+  .modal-header {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+  }
+
+  .modal-body {
+    padding: 20px;
+  }
+
+  .modal-footer {
+    border: none;
+  }
+
+  /* Style the input fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+
+  /* Add some margin to the inputs to separate them */
+  .modal-body input[type="text"] {
+    margin-bottom: 10px;
+  }
