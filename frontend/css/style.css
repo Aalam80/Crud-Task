@@ -187,6 +187,7 @@
     border-radius: 10px;
     display: block;
     margin: auto;
+    border: none;
   }
 
   .editbtn:hover {
@@ -211,6 +212,7 @@
     border-radius: 10px;
     display: block;
     margin: auto;
+    border: none;
   }
 
   .delbtn:hover {
